@@ -12,4 +12,5 @@ public class NewBeerOrderEvent extends ApplicationEvent {
     public BeerOrder getBeerOrder(){
         return (BeerOrder) this.source;
     }
+
 }
